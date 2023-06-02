@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+        .header {
+            background: black;
+            padding: 2px;
+            text-align: center;
+            font-size: xx-large;
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav {
+            padding: 10px;
+            text-align: center;
+        }
+        button {
+            background-color: greenyellow;
+            color: black;
+            padding: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15pt;
+            margin-right: 15px;
+            margin-left: 15px;
+            }
+        a{
+                text-decoration: none;
+                color: black;
+            }
+        input[type=text]{
+            width: 100%;
+            padding: 12px;
+            border: 2px solid grey;
+            border-radius: 4px;
+        }
+        .div1{
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-top: 2em;
+        }
+        .div2{
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-top: 2em;
+            margin-left: 30px;
+        }
+        .submit1{
+            background-color: greenyellow;
+            color: black;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15pt;
+        }
+        label{
+            font-size: x-large;
+        }
+        table, td, th { 
+            border: 1px solid gray;
+            font-size: large; 
+        }
+        table{
+            position: absolute;
+            z-index: 2;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 40%; 
+            border-spacing: 0;
+            border-radius: 12px 12px 0 0;
+            overflow: hidden;
+        }
+        td , th{
+            padding: 15px 20px;
+            text-align: center;
+        }
+        th{
+            background-color: greenyellow;
+            color: black;
+            font-family: 'Open Sans',Sans-serif;
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+        tr{
+            width: 100%;
+            background-color: #fafafa;
+            font-family: 'Montserrat', sans-serif;
+        }
+    

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h4>Student Management System</h4>
+    </div>
+    <div class="nav">
+        <button><a href="/indexI">Home</a></button>
+        <button><a href="/viewI">View</a></button>
+        <button><a href="/registerI">Register</a></button>
+        <button><a href="/updateI">Update</a></button>
+        <button><a href="/removeI">Remove</a></button>
+    </div>
+    <div class="div1">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Batch</th>
+            </tr>
+            <tr>
+                <td th:text="${student.kodId}">Kod-Id</td>
+                <td th:text="${student.name}">Name</td>
+                <td th:text="${student.branch}">Branch</td> 
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
